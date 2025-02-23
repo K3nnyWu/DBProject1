@@ -1,4 +1,4 @@
-INSERT INTO MotionPicture (id, NAME, rating, production, budget) VALUES
+INSERT INTO MotionPicture (id, name, rating, production, budget) VALUES
 (101, 'Breaking Bad', 9.1, 'High Bridge Productions', 195000000),
 (102, 'Band of Brothers', 9.5, 'DreamWorks', 125000000),
 (103, 'Game of Thrones', 8.9, 'HBO', 480000000),
@@ -8,7 +8,7 @@ INSERT INTO MotionPicture (id, NAME, rating, production, budget) VALUES
 (203, 'Doctor Strange', 8, 'Marvel', 300000000),
 (204, 'Batman vs Superman', 3, 'Warner Bros', 300000000);
 
-INSERT INTO Users (email, NAME, age) VALUES
+INSERT INTO User (email, name, age) VALUES
 ('aneesha@fb.com', 'Aman Aneesh', 25),
 ('ssarkar@bu.edu', 'Simone Sarkar', 23),
 ('jamiel@gmail.com', 'Jamie Vardy', 29),
@@ -34,7 +34,7 @@ INSERT INTO Series (mpid, season_count) VALUES
 (103, 8),
 (104, 5);
 
-INSERT INTO People (id, NAME, nationality, dob, gender) VALUES
+INSERT INTO People (id, name, nationality, dob, gender) VALUES
 (1, 'Brian Cranston', 'USA', '1956-12-12', 'M'),
 (2, 'Aaron Paul', 'USA', '1982-01-12', 'M'),
 (3, 'Vince Gillian', 'USA', '1976-03-03', 'M'),
